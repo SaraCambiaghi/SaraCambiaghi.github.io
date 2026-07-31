@@ -1,14 +1,11 @@
 ---
-title: "Paper Title Number 1"
+title: "Multi-objective outpatient scheduling via learning-based adaptive evolutionary search"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
+permalink: https://www.sciencedirect.com/science/article/pii/S0305054826002157
+excerpt: 'Outpatient Appointment Scheduling (OAS) often involves repeatedly solving multi-objective optimization problems that differ in their waiting lists but share structural similarities across planning periods. In traditional operations research approaches, instances of computationally complex OAS problems are solved from scratch using metaheuristics, overlooking valuable knowledge embedded in past solutions. In this work, we introduce a learning-based adaptive evolutionary approach that leverages historical solutions to improve the effectiveness of future schedules within a fixed computational budget. As a case study, we address a real-world OAS problem for CT-scan scheduling in emergency departments, where three patient categories (outpatients, inpatients, and emergencies) compete for limited resources. We formulate the problem as a multi-objective stochastic program aiming to minimize outpatient waiting times and inpatient and emergency completion times. To solve it, we use the Non-dominated Sorting Genetic Algorithm II (NSGA-II), enhanced with an adaptive warm-start strategy based on a weighted K-Nearest Neighbors method that incorporates a prediction model and optimal assignment to identify the most similar historical instances. Pareto approximations already computed for these instances allow for a similarity-weighted bootstrapping mechanism that generates a tailored initial population. The proposed approach is evaluated in different operational contexts using real-world data from a regional trauma hub in Pavia, Italy.'
+date: 2026
+venue: 'Computers & Operations Research'
 paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
