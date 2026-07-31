@@ -7,3 +7,4 @@ excerpt: 'Outpatient Appointment Scheduling (OAS) often involves repeatedly solv
 date: 2026
 venue: 'Computers & Operations Research'
 paperurl: 'https://academicpages.github.io/files/paper1.pdf'
+---
