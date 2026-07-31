@@ -24,7 +24,7 @@ repository               : "SaraCambiaghi/SaraCambiaghi.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Sara Cambiaghi"
+  name             : # "Sara Cambiaghi"
   pronouns         : # "she/her"  
   bio              : "PhD Candidate"
   location         : "Italy"
