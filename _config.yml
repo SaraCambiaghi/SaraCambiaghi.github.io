@@ -23,7 +23,7 @@ repository               : "SaraCambiaghi/SaraCambiaghi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpeg"
   name             : # "Sara Cambiaghi"
   pronouns         : # "she/her"  
   bio              : "PhD student"
