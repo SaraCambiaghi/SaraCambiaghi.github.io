@@ -1,9 +1,13 @@
 ---
 title: "Optimizing Multi-Stakeholder Fairness in Computed Tomography Appointment Scheduling with Predicted Scan and Reporting Duration"
 collection: publications
-category: manuscripts
+permalink: /publication/2026-ct-fairness-scheduling
 excerpt: 'A predictive-prescriptive framework combining machine learning and multi-objective optimization for fairness-aware follow-up CT scheduling.'
-category: working
+date: 2026-06-01
+venue: 'Working paper'
+paperurl: ''
+citation: ''
+status: working
 ---
 
 Scheduling follow-up Computed Tomography (CT) examinations requires balancing two competing objectives: assigning patients as close as possible to their clinically recommended examination dates while ensuring an equitable distribution of radiologists’ reporting workload. Existing approaches largely optimize scanner utilization or patient waiting times, overlooking both reporting activities and the need to balance fairness across multiple stakeholders. Moreover, the practical value of Machine Learning (ML) predictions depends on their integration into prescriptive decision-support models.
