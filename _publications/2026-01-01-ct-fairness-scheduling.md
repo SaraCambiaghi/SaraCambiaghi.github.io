@@ -6,7 +6,6 @@ excerpt: 'A predictive-prescriptive framework combining machine learning and mul
 date: 2026-06-01
 venue: 'Working paper'
 paperurl: ''
-citation: ''
 status: working
 ---
 
