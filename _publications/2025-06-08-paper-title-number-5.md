@@ -1,13 +1,12 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "Integrated Surgical Scheduling with Weekend Bed Occupancy Management: A Column Generation Approach"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+permalink: /publication/2026-column-generation
+excerpt: 'A joint optimization framework for surgical scheduling under weekend bed capacity constraints, combining a multi-criteria MILP with a Column Generation algorithm to balance patient access and OR utilization.'
+date: 2026-01-01
+venue: 'Working paper'
+paperurl: ''
+status: working
 ---
 
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
+This paper addresses the integrated Master Surgical Scheduling Problem and Surgical Case Assignment Problem under weekend bed capacity constraints. We propose a joint optimization framework that simultaneously determines the assignment of specialties and surgeons to Operating Room (OR) blocks, the selection and assignment of patients to these blocks, and the sequencing of surgeries, while accounting for reduced bed availability during weekends. The model is formulated as a multi-criteria Mixed-Integer Linear Program (MILP) that prioritizes the total priority-weighted amount of scheduled patients, minimizes excess weekend bed occupancy, and maximizes OR utilization. To solve large instances, we develop a Column Generation (CG) algorithm in which the pricing subproblem is formulated as a Resource-Constrained Shortest Path Problem. The framework accommodates block, open, and modified block scheduling policies. Computational experiments show that the CG approach outperforms the direct MILP solution in terms of solution quality and computational time, particularly for larger instances. We further analyze the trade-offs between weekend bed availability, OR utilization, and total patient priority. Our results provide managerial insights into how hospitals can balance patient access, operational efficiency, and staff workload when resources are limited.
