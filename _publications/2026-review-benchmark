@@ -1,0 +1,12 @@
+---
+title: "From Prediction to Optimization: A Literature Review and Comparative Benchmark for Patient Scheduling Under Uncertainty"
+collection: publications
+permalink: /publication/2026-review-benchmark
+excerpt: 'A literature review and benchmark framework for operating room scheduling under uncertainty, integrating machine learning predictions with stochastic and robust optimization.'
+date: 2026-01-01
+venue: 'Working paper'
+paperurl: ''
+status: working
+---
+
+Operating Room (OR) scheduling is critical for modern hospital management, but generating reliable surgical schedules remains challenging due to inherent uncertainties, particularly in surgery durations. This uncertainty can be addressed using empirical distributions, predicted durations, or predicted distributions, which must be embedded into optimization models to yield optimal schedules. In this paper, we present a comprehensive literature review of recent OR scheduling studies under uncertainty, with a particular focus on how uncertainty is modeled and embedded into optimization architectures. Furthermore, we propose a novel benchmark framework integrating machine learning (ML)-derived point predictions (PP) and conditional density estimation (CDE) with stochastic programming and distributionally robust optimization. To compute CDE, we introduce a two-stage method combining Decision Trees with Wasserstein K-Means clustering based on distributional similarity. Evaluated on real-world clinical data across three surgical specialties with varying duration variance, our benchmark assesses the trade-offs between predictive quality, decision quality, solution robustness, and computational complexity. Results demonstrate that while PP-based models systematically underestimate duration variance, CDE-based models successfully capture long-tailed behavior and establish reliable upper bounds on OR occupancy, though careful tuning of ambiguity radii is required to prevent over-conservatism in high-variability settings. Ultimately, the optimal approach depends on the level of inherent uncertainty, overtime tolerance, and overall system congestion, offering actionable guidance for healthcare decision-makers tailored to their specific operational contexts.
