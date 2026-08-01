@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2026-predict-then-optimize
 excerpt: 'A predict-then-optimize study for surgical scheduling comparing multiple machine learning models, showing that improved prediction accuracy does not necessarily translate into better scheduling decisions.'
 date: 2026-01-01
-venue: 'Working paper'
+venue: 'Shaping a Sustainable Future in the Era of Big Data, Proceedings of the 9th AIRO Young Workshop, AIRO Springer Series.'
 paperurl: ''
 status: accepted
 ---
