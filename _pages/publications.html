@@ -24,3 +24,9 @@ author_profile: true
 {% for post in working reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+<h2>Thesis</h2>
+{% assign thesis = site.publications | where: "category", "thesis" %}
+{% for post in thesis reversed %}
+  {% include archive-single.html %}
+{% endfor %}
