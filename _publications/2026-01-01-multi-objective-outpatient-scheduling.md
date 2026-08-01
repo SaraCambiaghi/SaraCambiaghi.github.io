@@ -7,7 +7,7 @@ excerpt: 'A learning-based adaptive evolutionary approach for outpatient schedul
 date: 2026-01-01
 venue: 'Computers & Operations Research'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0305054826002157'
-citation: 'Cambiaghi, S. et al. (2026). "Multi-objective outpatient scheduling via learning-based adaptive evolutionary search." Computers & Operations Research.'
+citation: 'S. Cambiaghi, D. Duma, Multi-objective outpatient scheduling via learning-based adaptive evolutionary search, Computers & Operations Research 194 (2026) 107597. doi:https://doi.org/10.1016/j.cor.2026.107597.'
 status: published
 ---
 
