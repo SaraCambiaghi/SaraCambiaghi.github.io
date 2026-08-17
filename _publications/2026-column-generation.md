@@ -4,8 +4,8 @@ collection: publications
 permalink: /publication/2026-column-generation
 excerpt: 'A joint optimization framework for surgical scheduling under weekend bed capacity constraints, combining a multi-criteria MILP with a Column Generation algorithm to balance patient access and OR utilization.'
 date: 2026-01-01
-venue: 'Working paper'
-paperurl: ''
+venue: 'preprint'
+paperurl: 'https://arxiv.org/abs/2608.11018'
 status: working
 ---
 
