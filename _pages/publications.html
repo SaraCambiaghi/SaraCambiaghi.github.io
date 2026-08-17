@@ -19,6 +19,12 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
+<h2>Preprint</h2>
+{% assign preprint = site.publications | where: "status", "preprint" %}
+{% for post in preprint reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
 <h2>Working Papers</h2>
 {% assign working = site.publications | where: "status", "working" %}
 {% for post in working reversed %}
