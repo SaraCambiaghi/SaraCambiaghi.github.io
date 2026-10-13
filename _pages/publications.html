@@ -2,7 +2,7 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}
@@ -31,8 +31,8 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-<h2>Thesis</h2>
-{% assign thesis = site.publications | where: "category", "thesis" %}
-{% for post in thesis reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<h2>Theses</h2>
+<ul>
+  <li><a href="/files/tesi-magistrale.pdf">Master's Thesis: Selecting Subgame Perfect Nash Equilibria in Stackelberg Games</a></li>
+  <li><a href="/files/tesi-triennale.pdf">Bachelor's Thesis: La Legge di Benford</a></li>
+</ul>
